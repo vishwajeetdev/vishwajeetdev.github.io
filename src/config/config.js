@@ -23,6 +23,7 @@ import {
 } from "react-icons/si";
 
 import {MdArchitecture} from "react-icons/md";
+import myImage from '../assets/my-img.png';
 
 export const username = `vishwajeetdev`;
 export const instaUsername = 'hey.vp'
@@ -31,24 +32,28 @@ export const name = "Vishwajeet Pratap Singh";
 export const organization = `Maya Data Privacy`;
 export const role = `SDE-1 at ${organization}`;
 export const profileLink = `https://leetcode.com/u/vishwajeet-dev`;
-export const leetcodeApi = `https://leetcode-stats-api.herokuapp.com/LC-${username}`;
+export const leetcodeApi = `https://leetcode-stats-api.herokuapp.com/${leetcodeUsername}`;
 export const gitHubApi = `https://api.github.com/users/${username}/repos`;
 export const linkedin = `https://www.linkedin.com/in/${username}`;
 export const github = `https://github.com/${username}`;
-export const profileImage = 'https://drive.google.com/file/d/1MZmQjpTyBNFJibUf41DsuXzkPw5-ObU7/view' ;
+export const profileImage = myImage;
 export const resume = "https://drive.google.com/file/d/1ES1_aBKl0fp3heBVTYLm83r1T_-s4eV3/view?usp=drivesdk";
 export const leetcodeProfile = `https://leetcode.com/u/vishwajeet-dev`;
 export const instagram = `https://instagram.com/${instaUsername}`;
 export const email = "vishwajeet.devv@gmail.com";
 export const contact = "9155676582";
+export const githubToken="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"
+export const githubCommitIndicatorUsername = "vishwajeet-singhh"
 
 
-export const aboutMe = `Hello, I'm Vishwajeet Pratap Singh, a software engineer with expertise in Java, Spring Boot, 
-Hibernate, and REST API development. I have hands-on experience with PostgreSQL, Oracle, SAP HANA, and tools like Docker, 
-Prometheus, Grafana, and Kafka. I have developed secure license validation systems using RSA cryptography, optimized server 
-monitoring with Docker and Spring Actuator, and built high-performance data processing APIs. My work includes automating schema 
-scanning across multiple databases, real-time data synchronization using Kafka, and creating scalable backup and restore solutions 
-for large datasets.Passionate about solving complex problems, I aim to leverage my technical skills to deliver impactful software solutions.`;
+
+export const aboutMe = `Experienced in Java, Spring Boot, Hibernate, REST APIs, and Microservices, with a strong background in PostgreSQL, Oracle, SAP HANA, and cloud platforms like Azure. Skilled in building scalable backend systems, integrating Kafka for event-driven architectures, and implementing secure authentication mechanisms.
+
+\n\nWorked extensively with Python for data detection and classification, optimizing large-scale data processing. Proficient in JavaScript, TypeScript, and React, delivering dynamic and responsive web applications. Hands-on experience with Docker, CI/CD pipelines, and performance monitoring using Prometheus and Grafana.
+
+\n\nFocused on solving complex problems and building efficient, high-performance systems.`;
+
+
 
 
 export const footerAbout = `I'm a dedicated software developer skilled in Java, Spring Boot, Hibernate, and REST APIs, with expertise in PostgreSQL, Oracle, SAP HANA, and tools like Docker, Kafka, and Prometheus. Passionate about building impactful projects and solving complex problems through efficient and scalable software solutions.`;

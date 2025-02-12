@@ -41,7 +41,7 @@ const About = () => {
           <h2 className="text-3xl sm:text-4xl font-extrabold mb-4 animate-pulse text-center md:text-left text-sky-400">
             About Me
           </h2>
-          <p className="text-sm sm:text-lg font-medium leading-relaxed transition duration-300 text-center md:text-left">
+          <p className="text-sm sm:text-lg font-medium leading-relaxed transition duration-300 text-justify">
             {aboutMe}
           </p>
         </div>

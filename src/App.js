@@ -14,6 +14,7 @@ import LeetCodeStats from './Components/LeetcodeStats';
 import Dashboard from './Components/Album/Dashboard';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Github from './Components/Github';
 
 function App() {
 
@@ -44,6 +45,9 @@ function App() {
         </section>
         <section className=" m-0 p-4"> {/* Added Tools Section */}
           <Tools/>
+        </section>
+        <section className=" m-0 p-4"> {/* Added LeetCodeDashboard Section */}
+          <Github/>
         </section>
         <section className=" m-0 p-4"> {/* Added LeetCodeDashboard Section */}
           <LeetCodeDashboard/>
