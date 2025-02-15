@@ -72,7 +72,7 @@ const Experience = () => {
                 <p className="text-xs sm:text-sm lg:text-base italic text-sky-400">
                   {exp.duration}
                 </p>
-                <ul className="text-xxs sm:text-sm lg:text-base mt-2 text-gray-200 list-disc pl-5 space-y-2 text-left">
+                <ul className="text-xxs sm:text-sm lg:text-base mt-2 text-gray-200 list-disc pl-5 space-y-2 text-justify">
                   {exp.description.map((point, idx) => (
                       <li key={idx} className="leading-relaxed">{point}</li>
                   ))}

@@ -61,26 +61,24 @@ export const footerAbout = `I'm a dedicated software developer skilled in Java, 
 
 // list of skills
 export const skills = [{name: "Java", icon: <FaJava/>}, {
-    name: "JavaScript",
-    icon: <SiJavascript/>
-}, {name: "Spring Boot", icon: <SiSpringboot/>}, {name: "React.js", icon: <FaReact/>}, {
-    name: "DSA",
-    icon: <SiJest/>
-}, {name: "HTML", icon: <FaHtml5/>}, {name: "CSS", icon: <FaCss3Alt/>}, {
-    name: "Tailwind CSS",
-    icon: <SiTailwindcss/>
+    name: "JavaScript", icon: <SiJavascript/>
+},
+    {name: "Spring Boot", icon: <SiSpringboot/>},
+    {name: "React.js", icon: <FaReact/>}, {
+    name: "DSA", icon: <SiJest/>
+},
+    {name: "HTML", icon: <FaHtml5/>}, {name: "CSS", icon: <FaCss3Alt/>}, {
+    name: "Tailwind CSS", icon: <SiTailwindcss/>
 }, {name: "MySQL", icon: <SiMysql/>}, {name: "SQL", icon: <SiSqlite/>}, {name: "AWS", icon: <FaAws/>}, {
-    name: "Git",
-    icon: <FaGitAlt/>
+    name: "Git", icon: <FaGitAlt/>
 }, {name: "Hibernate", icon: <SiHibernate/>}, {name: "JUnit5", icon: <SiJunit5/>}, {
-    name: "Thymeleaf",
-    icon: <SiThymeleaf/>
+    name: "Thymeleaf", icon: <SiThymeleaf/>
 }, {name: "Spring Security", icon: <SiSpringsecurity/>},];
 
 //list of tools
 export const toolsList = [{name: "SQL Workbench", icon: <FaDatabase/>}, {
     name: "IntelliJ IDEA",
-    icon: <SiIntellijidea/>
+    icon: <SiEclipseide/>
 }, {name: "Eclipse", icon: <SiEclipseide/>}, {name: "Spring Boot Tool Suite", icon: <SiSpringboot/>}, {
     name: "VS Code",
     icon: <SiVisualstudiocode/>
@@ -119,12 +117,19 @@ export const experiences = [{
     duration: "Dec 2023 - Present",
     role: "Associate Developer Intern",
     description: [
-        "Developed a secure license validation system using RSA cryptography, reducing the risk of invalid licenses by nearly 100%.",
-        "Engineered a server monitoring system using Docker, Prometheus, and Grafana for real-time health tracking and alerting.",
-        "Automated schema scanning for PostgreSQL, Oracle, and SAP HANA, saving 95% of manual efforts.",
-        "Built RESTful APIs for large-scale data processing and secure data deletion using Spring Boot.",
-        "Optimized data backup and restore processes with Kafka, ensuring minimal data loss and high availability."
-    ]}
+        "Integrated additional parameters for detection, including IBAN, addresses, and credit card details, using a Python library to process millions of records and enhance automated data classification.",
+        "Designed and prepared reports for user access, company reporting, and privacy auditing, ensuring integrity through digital signatures to prevent modification.",
+        "Implemented a condition in AI-Safe to exclude popular names from anonymization and provide Wikipedia references.",
+        "Developed a profile page with backend APIs for password resets and profile edits, incorporating CAPTCHA and OTP for enhanced security.",
+        "Achieved nearly 100% reduction in the risk of invalid licenses in on-premises applications by implementing RSA cryptography and digital signatures.",
+        "Engineered an advanced server monitoring system with Docker, Spring Actuator, Prometheus, Grafana, and Alert Manager for real-time health tracking and email alerts.",
+        "Automated PII detection, transforming a manual data classification process into a fully automated solution, saving 95% of user effort.",
+        "Designed a scalable backup system handling up to 1 billion records, integrating Kafka for real-time synchronization.",
+        "Built a high-performance RESTful API with Spring Boot for large-scale data cleaning and deletion, optimizing performance by 30%.",
+        "Automated schema scanning across Oracle, PostgreSQL, and HANA databases, handling 100,000+ tables and significantly improving data management efficiency.",
+        "Increased application security by 70% by developing a Java Mail Server for email authentication, enhancing user and system security."
+    ]
+}
     /*{
     year: "2023",
     company: "Maya Data Privacy",

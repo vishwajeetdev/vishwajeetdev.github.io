@@ -21,7 +21,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-gray-900 text-white p-2 fixed top-0 w-full z-50 shadow-lg rounded-b-lg transform transition-transform duration-300 hover:shadow-2xl mb-0">
+    <header className="bg-gray-900 text-white p-2 fixed top-0 w-full z-50 shadow-lg rounded-b-lg transform transition-transform duration-300 hover:shadow-2xl mb-0 ">
       <div className="flex justify-between items-center max-w-6xl mx-auto">
         {/* Logo/Name */}
         <Gemini message={name} fontSize={28} className="text-white"/>
