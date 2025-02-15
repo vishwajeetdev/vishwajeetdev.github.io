@@ -27,7 +27,7 @@ import myImage from '../assets/my-img.png';
 
 export const username = `vishwajeetdev`;
 export const instaUsername = 'hey.vp'
-export const  leetcodeUsername = 'vishwajeet-dev'
+export const leetcodeUsername = 'vishwajeet-dev'
 export const name = "Vishwajeet Pratap Singh";
 export const organization = `Maya Data Privacy`;
 export const role = `SDE-1 at ${organization}`;
@@ -42,21 +42,19 @@ export const leetcodeProfile = `https://leetcode.com/u/vishwajeet-dev`;
 export const instagram = `https://instagram.com/${instaUsername}`;
 export const email = "vishwajeet.devv@gmail.com";
 export const contact = "9155676582";
-export const githubToken="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"
+export const githubToken = "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"
 export const githubCommitIndicatorUsername = "vishwajeet-singhh"
-
 
 
 export const aboutMe = `Experienced in Java, Spring Boot, Hibernate, REST APIs, and Microservices, with a strong background in PostgreSQL, Oracle, SAP HANA, and cloud platforms like Azure. Skilled in building scalable backend systems, integrating Kafka for event-driven architectures, and implementing secure authentication mechanisms.
 
-\n\nWorked extensively with Python for data detection and classification, optimizing large-scale data processing. Proficient in JavaScript, TypeScript, and React, delivering dynamic and responsive web applications. Hands-on experience with Docker, CI/CD pipelines, and performance monitoring using Prometheus and Grafana.
+\nWorked extensively with Python for data detection and classification, optimizing large-scale data processing. Proficient in JavaScript, TypeScript, and React, delivering dynamic and responsive web applications. Hands-on experience with Docker, CI/CD pipelines, and performance monitoring using Prometheus and Grafana.
 
-\n\nFocused on solving complex problems and building efficient, high-performance systems.`;
-
-
+\nFocused on solving complex problems and building efficient, high-performance systems.`;
 
 
-export const footerAbout = `I'm a dedicated software developer skilled in Java, Spring Boot, Hibernate, and REST APIs, with expertise in PostgreSQL, Oracle, SAP HANA, and tools like Docker, Kafka, and Prometheus. Passionate about building impactful projects and solving complex problems through efficient and scalable software solutions.`;
+export const footerAbout = "Experienced in Java, Spring Boot, Hibernate, REST APIs, and Microservices, with a strong background in PostgreSQL, Oracle, SAP HANA, and cloud platforms like Azure. Skilled in building scalable backend systems, integrating Kafka for event-driven architectures, and implementing secure authentication mechanisms.";
+
 
 
 // list of skills
@@ -65,15 +63,15 @@ export const skills = [{name: "Java", icon: <FaJava/>}, {
 },
     {name: "Spring Boot", icon: <SiSpringboot/>},
     {name: "React.js", icon: <FaReact/>}, {
-    name: "DSA", icon: <SiJest/>
-},
+        name: "DSA", icon: <SiJest/>
+    },
     {name: "HTML", icon: <FaHtml5/>}, {name: "CSS", icon: <FaCss3Alt/>}, {
-    name: "Tailwind CSS", icon: <SiTailwindcss/>
-}, {name: "MySQL", icon: <SiMysql/>}, {name: "SQL", icon: <SiSqlite/>}, {name: "AWS", icon: <FaAws/>}, {
-    name: "Git", icon: <FaGitAlt/>
-}, {name: "Hibernate", icon: <SiHibernate/>}, {name: "JUnit5", icon: <SiJunit5/>}, {
-    name: "Thymeleaf", icon: <SiThymeleaf/>
-}, {name: "Spring Security", icon: <SiSpringsecurity/>},];
+        name: "Tailwind CSS", icon: <SiTailwindcss/>
+    }, {name: "MySQL", icon: <SiMysql/>}, {name: "SQL", icon: <SiSqlite/>}, {name: "AWS", icon: <FaAws/>}, {
+        name: "Git", icon: <FaGitAlt/>
+    }, {name: "Hibernate", icon: <SiHibernate/>}, {name: "JUnit5", icon: <SiJunit5/>}, {
+        name: "Thymeleaf", icon: <SiThymeleaf/>
+    }, {name: "Spring Security", icon: <SiSpringsecurity/>},];
 
 //list of tools
 export const toolsList = [{name: "SQL Workbench", icon: <FaDatabase/>}, {
@@ -88,27 +86,32 @@ export const toolsList = [{name: "SQL Workbench", icon: <FaDatabase/>}, {
 },];
 
 //list of certifications
-export const certifications = [{
-    title: "Spring Boot",
-    url: "https://s3-ap-southeast-1.amazonaws.com/learnyst/schools/137927/certificates/137999/7662983_137999.pdf?1680688572",
-    icon: <SiSpringboot style={{color: '#6DB33F'}}/>, // Spring icon
-}, {
-    title: "Data Structures and Algorithms",
-    url: "https://assets.nextleap.app/certificate/Cohort-5-9faa98583d17fdf3d8c761fba59ddd14.pdf",
-    icon: <SiLeetcode className="text-yellow-600"/>, // LeetCode icon
-}, {
-    title: "System Design",
-    url: "https://d3r0n59fu7ub44.cloudfront.net/certificates/courseCertificate/2024-02-02/course_64e39613c899c20312714e9e_user_64f82ae8af97410c0679de08.pdf",
-    icon: <MdArchitecture className="text-purple-600"/>, // System Design icon
-}, {
-    title: "React.js",
-    url: "https://www.mygreatlearning.com/certificate/PLWQVOVE",
-    icon: <FaReact style={{color: '#6ccff6'}}/>, // Frontend Mentor icon
-}, {
-    title: "Frontend Developer Program",
-    url: "https://www.edyoda.com/public-certificate/guddu1cse/1482",
-    icon: <FaReact style={{color: '#6ccff6'}}/>, // Frontend Mentor icon
-},];
+export const certifications = [
+    {
+        title: "Java",
+        icon: <FaJava style={{color: '#E76F00'}}/>, // Spring icon
+    },
+
+    {
+        title: "Spring Boot",
+        icon: <SiSpringboot style={{color: '#6DB33F'}}/>, // System Design icon
+    },
+
+
+    {
+        title: "Data Structures and Algorithms",
+        icon: <SiLeetcode className="text-yellow-600"/>, // LeetCode icon
+    },
+
+    {
+        title: "React.js",
+        url: "https://www.mygreatlearning.com/certificate/PLWQVOVE",
+        icon: <FaReact style={{color: '#6ccff6'}}/>, // Frontend Mentor icon
+    }, {
+        title: "Frontend Developer Program",
+        url: "https://www.edyoda.com/public-certificate/guddu1cse/1482",
+        icon: <FaReact style={{color: '#6ccff6'}}/>, // Frontend Mentor icon
+    },];
 
 //list of experiences
 export const experiences = [{
@@ -137,4 +140,4 @@ export const experiences = [{
     role: "SDE Intern",
     description: "Implemented API endpoints and data processing pipelines, enhancing the back-end functionality and ensuring data integrity for various client projects.",
 }*/
-,];
+    ,];

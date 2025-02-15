@@ -42,6 +42,7 @@ const Dashboard = () => {
         <Gemini
           message="Favorite Spots: Traveled and Dreamt"
           fontSize={window.innerWidth > 768 ? 24 : 16}
+          isFooter={false}
         />
       </div>
 

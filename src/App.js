@@ -46,9 +46,7 @@ function App() {
         <section className=" m-0 p-4"> {/* Added Tools Section */}
           <Tools/>
         </section>
-        <section className=" m-0 p-4"> {/* Added LeetCodeDashboard Section */}
-          <Github/>
-        </section>
+
         <section className=" m-0 p-4"> {/* Added LeetCodeDashboard Section */}
           <LeetCodeDashboard/>
         </section>

@@ -119,7 +119,7 @@ const Footer = () => {
             About Me
           </h2>
           {/*<p>{footerAbout}</p> */}
-          <Gemini message={footerAbout} fontSize={isMobile ? 12 : 17} />
+          <Gemini message={footerAbout} fontSize={isMobile ? 12 : 16} isFooter={true} />
         </div>
         <div style={sectionStyle}>
           <h2
